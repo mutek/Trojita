@@ -1,0 +1,5 @@
+QMAKE_PRL_BUILD_DIR = /build/buildd-qtwebkit_2.2.1-5-i386-M_k9PZ/qtwebkit-2.2.1/Source/WebKit/qt/
+QMAKE_PRO_INPUT = QtWebKit.pro
+QMAKE_PRL_TARGET = libQtWebKit.so.4.9.0
+QMAKE_PRL_CONFIG = include_source_dir lex yacc uic resources qt release incremental link_prl gdb_dwarf_index def_files_disabled exceptions no_mocdepend release stl qt_no_framework building-libs depend_includepath hide_symbols bsymbolic_functions standalone_package depend_includepath nostrip include_webinspector production production x11 link_pkgconfig production create_pc create_prl x11lib x11inc moc thread dll
+QMAKE_PRL_VERSION = 4.9.0

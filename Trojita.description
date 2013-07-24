@@ -1,0 +1,40 @@
+Trojita
+Trojita is a fast Qt IMAP e-mail client.
+Our mission is to deliver an application which:
+
+    Enables you to access your mail anytime, anywhere.
+    Does not slow you down. If we can improve the productivity of an e-mail user, we better do.
+    Respects open standards and facilitate modern technologies. We value the vendor-neutrality that IMAP provides and are committed to be as interoperable as possible.
+    Is efficient -- be it at conserving the network bandwidth, keeping memory use at a reasonable level or not hogging the system's CPU.
+    Can be used on many platforms. One UI is not enough for everyone, but our IMAP core works fine on anything from desktop computers to cell phones and big ERP systems.
+    Plays well with the rest of the ecosystem. We don't like reinventing wheels, but when the existing wheels quite don't fit the tracks, we're not afraid of making them work.
+
+Being Fast
+
+Are you tired of other mail programs taking ages to open a "big mailbox"? A unique feature of Trojitá is that it is designed from the ground up to be fast -- opening a mailbox with tens of thousands of messages is something which Trojitá is very good at. There is no need to wait for all messages being downloaded -- or to download them at all.
+Respecting Standards
+
+Trojitá's development is conducted with standard conformance in mind. We will never break an Internet standard knowingly, and all possible deviations from best practices will be fixed quickly. We care about the future of IMAP and other e-mail related protocols, we take part in the IETF discussions and have proposed quite a few improvements already. Our aim is to support all useful IMAP extensions to make the user experience better.
+Efficiency
+
+Conserving resources is something which we take very seriously -- be it network bandwidth, memory usage or CPU/energy/battery consumption. Among other things, Trojitá implements IMAP's QRESYNC, CONDSTORE, ESEARCH, CATENATE, BURL, COMPRESS=DEFLATE, CONTEXT=SORT extensions (and many more!). Data which were transfered once will not be downloaded again.
+Cross-platform Support
+
+Trojitá works well on any reasonable desktop computer thanks to the power of the Qt library -- be it Linux, Windows or a Mac. We don't care what desktop environment you run, but we try to fit into KDE and Gnome if that's what you prefer. Trojitá is also available on cell phones with an optimized, touch-friendly user interface. The same core IMAP library also powers an enterprise CRM product.
+What Trojitá is not:
+
+    A full PIM suite. That's something which we leave to other applications, so you won't find a fully fledged calendar in Trojitá. But you might help us make Trojitá a part of a fully-fledged PIM if you're interested.
+    A POP3 client. Trojitá works by accessing a remote mail store over the IMAP protocol. POP3 cannot work this way for technical reasons.
+    Finished yet. If you try Trojitá yourself, you will notice that some "obvious" features are missing. We are working on getting them fixed, but we could definitely use a help.
+
+Some highlights of Trojitá are:
+
+    A pure Qt4 (and Qt5!) application with no additional dependencies
+    Robust IMAP core implemented using Qt's Model-View framework
+    Standards compliance is a design goal
+    On-demand message list and body part loading
+    Offline IMAP support
+    Support for bandwidth-saving mode aimed at mobile users with expensive connection
+    IMAP over SSH -- in addition to usual SSL/TLS connections, the server could be accessed via SSH
+    Safe and robust dealing with HTML mail
+

@@ -1,0 +1,12 @@
+
+APP_NAME=Trojita
+APP_RELEASE=0.3.93
+APP_KERNEL=Linux
+APP_OS=Debian7
+APP_PLATFORM=ia32
+
+APP_BIN=startApp
+
+APP_ROOT=ioTrojita0.3.93-Debian7/Linux-ia32
+
+
